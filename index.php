@@ -1,5 +1,5 @@
 <?php
-// ⊗ppOpUFmCVT
+// ⊗ppOpUFmLy
 	namespace Core;
 	
 	error_reporting(E_ALL);
