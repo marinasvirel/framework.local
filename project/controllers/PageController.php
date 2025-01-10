@@ -32,4 +32,10 @@ class PageController extends Controller
     $this->title = 'Действие act контроллера page';
     return $this->render('page/act', ['header' => 'список юзеров', 'users' => ['user1', 'user2', 'user3']]);
   }
+
+  public function show($params){
+    $id = $params['id'];
+    $this->title = $this->pages[$id]['title'];
+    return $this->render('page/show', ['text' => $this->pages[$id]['text']]);
+  }
 }

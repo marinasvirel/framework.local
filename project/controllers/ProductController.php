@@ -46,6 +46,7 @@ class ProductController extends Controller
 
   public function show($params)
   {
+    $this->title = $this->products[$params['id']]['name'];
     return $this->render('product/act', [
       'product' => $this->products[$params['id']],
     ]);
