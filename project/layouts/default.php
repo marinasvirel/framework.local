@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="/project/webroot/styles.css">
 		<title><?= $title ?></title>
 	</head>
 	<body>
@@ -14,6 +15,7 @@
 			</aside>
 			<main>
 				<?= $content ?>
+				<img src="/project/webroot/cat.webp" alt="cat">
 			</main>
 			<aside class="sidebar right">
 				правый сайдбар
