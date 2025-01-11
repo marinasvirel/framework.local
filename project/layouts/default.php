@@ -15,7 +15,6 @@
 			</aside>
 			<main>
 				<?= $content ?>
-				<img src="/project/webroot/cat.webp" alt="cat">
 			</main>
 			<aside class="sidebar right">
 				правый сайдбар
